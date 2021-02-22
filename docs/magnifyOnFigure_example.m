@@ -17,7 +17,7 @@ close all;
 disp( sprintf('This is the default interactive operation mode of ''magnifyOnFigure''') ) 
 fig = figure;
 hold on;
-plot(rand(100,1), 'b'); plot(rand(300, 1), 'r', 'LineSmooth','on'); 
+plot(rand(100,1), 'b'); plot(rand(300, 1), 'r', 'LineSmoothing','on'); 
 grid on;
 hold off;
 magnifyOnFigure;
